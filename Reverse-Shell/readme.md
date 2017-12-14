@@ -20,3 +20,4 @@ Copy's the file servicehost.txt to startup directory: shell:startup and executes
 
 #No discussion jet!
 
+#"Don't look at the branch of the problem, look at the root! (C1PH3R)"
