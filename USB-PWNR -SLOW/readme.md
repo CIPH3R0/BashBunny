@@ -29,5 +29,5 @@
 
 #No discussion jet!
 
-#For faster or newer computers you can visit this link to download a version that is optimized for those applications.
+#For faster and newer computers you can visit this link to download a version that is optimized for those applications.
 # https://github.com/CIPH3R0/BashBunny/tree/master/USB-PWNR
