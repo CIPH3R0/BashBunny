@@ -1,7 +1,7 @@
 # Reverse-Shell
 
-* Author: speedy22013
-* Creds: speedy22013
+* Author: C1PH3R
+* Creds: C1PH3R
 * Target: Windows
 
 ## Description
