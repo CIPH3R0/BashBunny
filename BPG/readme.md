@@ -1,7 +1,7 @@
 # BPG (BrowserPasswordGrabber)
 
-* Author: speedy22013
-* Creds: speedy22013, Nirsoft
+* Author: C1PH3R
+* Creds: C1PH3R, Nirsoft
 * Target: Windows
 
 ## Description
