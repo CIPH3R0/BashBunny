@@ -4,15 +4,15 @@
 * Creds: C1PH3R, Hak5Darren, Nirsoft
 * Target: Windows
 
-# Description
+# Description:
 
-* Starts up multiple programs: 
+# Starts up multiple programs: 
 
-* BPG (BrowserPasswordGrabber): Grabs passwords from web browsers: Internet Explorer, Mozilla Firefox, Google Chrome, Safari, and Opera. 
-* BHG (BrowserHistoryGrabber): Grabs history from web browsers: Internet Explorer, Mozilla Firefox, Google Chrome, Safari, and Opera. 
-* InfoGrabber: Gather a lot of information about the computer and place it in a text file in loot/info/.
-* Reverse-Shell: Copy's the file servicehost.txt to startup directory: shell:startup and executes it.
-* Ip grabber.
+- [x] BPG (BrowserPasswordGrabber): Grabs passwords from web browsers: Internet Explorer, Mozilla Firefox, Google Chrome, Safari, and Opera. 
+- [x] BHG (BrowserHistoryGrabber): Grabs history from web browsers: Internet Explorer, Mozilla Firefox, Google Chrome, Safari, and Opera. 
+- [x] InfoGrabber: Gather a lot of information about the computer and place it in a text file in loot/info/.
+- [x] Reverse-Shell: Copy's the file servicehost.txt to startup directory: shell:startup and executes it.
+- [x] Ip grabber.
 
 # Configuration:
 * Optional: edit the "Delay CONFIGURATION" in payload file to your preferences to make the payload work with slower/older or faster/newer computers
