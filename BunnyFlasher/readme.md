@@ -5,5 +5,5 @@
 * 3 Open the .exe, and follow the steps on screen.
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-######Disclaimer: This is not an official firmware flasher, use at your own risk!
+###### Disclaimer: This is not an official firmware flasher, use at your own risk!
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
