@@ -1,4 +1,4 @@
-#Firmware flasher for the Bashbunny, able to flash firmware from 1.1 to 1.5.
+# Firmware flasher for the Bashbunny, able to flash firmware from 1.1 to 1.5.
 
 * 1 Drag and drop the .exe file anyware on your computer.
 * 2 Put in your BashBunny.
@@ -7,3 +7,6 @@
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 ###### Disclaimer: This is not an official firmware flasher, use at your own risk!
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+# For the SourceCode
+* I did not tought that I would opencource this project so it is not well commented or clean!
