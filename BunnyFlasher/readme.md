@@ -3,3 +3,7 @@
 * 1 Drag and drop the .exe file anyware on your computer.
 * 2 Put in your BashBunny.
 * 3 Open the .exe, and follow the steps on screen.
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Disclaimer: This is not an official firmware flasher, use at your own risk!
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
